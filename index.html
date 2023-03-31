@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/img/h1.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- =====BOX ICONS===== -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Nishant Chapagai</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <!-- &#60;&#62; -->
+        <a href="#home" class="nav-logo"><img src="./assets/img/h.png" height="70px" alt="H" /></a>
+      </div>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link home active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link contact">Contact</a>
+          </li>
+          <li class="nav-item">
+          <a href = "#" onclick="myFunction()"> <img src="./assets/img/sumoon.png" alt="" height="20px" width="20px" style="background-color: transparent;"> </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid section" id="home">
+      <div class="home-data">
+        <h2 class="home-title">
+          Hi 👋,<br />I'am <span class="home-title-color">Nishant Chapagai</span><br />
+         <span id="jobTitle" >Front-End Developer</span> 
+        </h2>
+
+        <a href="https://drive.google.com/file/d/1H08bwDDtPX0422uX1svMEH1xnSEEX1Zt/view?usp=sharing" target="_blank"
+          class="button">Resume</a>
+
+      </div>
+
+      <div class="home-social">
+        <a href="https://www.linkedin.com/in/nishant-chapagai-1b8813269" target="_blank" class="home-social-icon"><i
+            class="bx bxl-linkedin ho"></i></a>
+        <a href="https://github.com/nishant12311" target="_blank" class="home-social-icon"><i
+            class="bx bxl-github ho"></i></a>
+      </div>
+
+      <div class="home-img">
+        <img src="assets/img/profile.gif" alt="" />
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about-container bd-grid">
+        <div class="about-img">
+          <img src="assets/img/hi.jpg" alt="" />
+        </div>
+
+        <div style="text-align: center">
+          <h2 class="about-subtitle">I'am Nishant Chapagai</h2>
+          <p class="about-text">
+            Quick learner and an aspiring frontend developer and web designer with core
+            knowledge of HTML CSS JS & FIGMA. Looking forward to applying
+            and enhancing my skills and knowledge as a developer.
+          </p>
+          <br />
+          
+          <p>
+          Drop a mail nishantchapagai65@gmail.com
+            <i style="color: #4070f4; font-size: 1.2rem; cursor: pointer" class="bx bx-copy" id="copy"></i>
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!---========Education ======--->
+    <section class="education section" id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="education-container bd-grid">
+    
+        <div class="education-data">
+          <div class="education-names">
+            <!-- <i class="bx bxl-html5 skills-icon"></i> -->
+            <span class="education-name">+2</span> 
+            <p class="education-platform ">Liverpool International College</p>
+            <p class="education-duration ">2018-2020</p>
+
+          </div>
+        </div>
+        </div>
+      <div class="education-container bd-grid">
+    
+    <div class="education-data">
+      <div class="education-names">
+        <!-- <i class="bx bxl-html5 skills-icon"></i> -->
+        <span class="education-name">Bachelor in Computer Application</span>
+        <p class="education-platform ">Kathmandu College of Technology</p>
+        <p class="education-duration ">2020-Present</p>
+
+      </div>
+    </div>
+    </div>
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-container bd-grid">
+        <div>
+          <!-- <h2 class="skills-subtitle">Front-end Skills</h2> -->
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-html5 skills-icon"></i>
+              <span class="skills-name">HTML</span>
+            </div>
+            <div class="skills-bar skills-html"></div> 
+             <div>
+                <span class="skills-percentage">75%</span>
+              </div>  
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-css3 skills-icon"></i>
+              <span class="skills-name">CSS</span>
+            </div>
+             <div class="skills-bar skills-css"></div> 
+            <div>
+                <span class="skills-percentage">70%</span>
+              </div> 
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-javascript skills-icon"></i>
+              <span class="skills-name">JavaScript</span>
+            </div>
+            <div class="skills-bar skills-css"></div> 
+            <div>
+               <span class="skills-percentage">50%</span> 
+              </div> 
+
+          </div>
+            <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-figma skills-icon"></i>
+              <span class="skills-name">Figma</span>
+            </div>
+            <div class="skills-bar skills-react"></div>
+            <div>
+                <span class="skills-percentage">70%</span>
+              </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-github skills-icon"></i>
+              <span class="skills-name">Github</span>
+            </div>
+            
+          
+
+            </div> 
+
+          </div>
+        </div>
+    </section>
+
+    <!--===== Projects =====-->
+    <section class="projects section" id="projects">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project-container">
+        <div class="project-img">
+          <img src="assets/img/netflix.jpg" alt="cult.fit" />
+          <p class="project-title">NetFlix.com clone</p>
+          <p class="project-subtitle">
+            Netflix is a subscription-based streaming service that allows our members to watch TV shows and movies on an internet-connected device. <br />
+            <br />
+            Depending on your plan, you can also download TV shows and movies without an internet connection. 
+            . <br />
+            <br />HTML | CSS | DOM
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/nishant12311/Netflix-Clone" target="_blank" class="small-btn button">
+
+              <i class="bx bxl-github"></i>
+            </a>
+           
+              <!-- <i class="bx bx-link-external"></i> -->
+            </a>
+            <!-- <a href="https://medium.com/@hgauba4/how-did-our-team-build-the-mednear-clone-241227129f79" target="_blank"
+              class="small-btn button">
+              Blog
+              <i class="bx bx-blog"></i> -->
+            </a>
+          </div>
+        </div>
+
+
+        <div class="project-img">
+          <img src="assets/img/tourist.jpg" alt="" />
+          <p class="project-title">Travel Agency</p>
+          <p class="project-subtitle">
+            Travel Acency is a website for tourist for Booking the places online. <br />
+            <br />
+            A collaborative project built by me, executed in 5 days.
+            <br />
+            <br /> HTML | CSS | Javascript |
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/salakhas/epicGames" target="_blank" class="small-btn button">
+
+              <i class="bx bxl-github"></i>
+            </a>
+            
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="assets/img/text.jpg" alt="" />
+          <p class="project-title">Text To Speech</p>
+          <p class="project-subtitle">
+            A web application which is just a Text to Speech Converter.
+            <br />
+            <br />
+            It is Individual Project build by Me.
+            . <br />
+            <br />HTML | CSS | DOM
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/nishant12311/Text-To-Speech" target="_blank" class="small-btn button">
+
+              <i class="bx bxl-github"></i>
+            </a>
+            
+            </a>
+          </div>
+        </div>
+        
+        <div class="project-img">
+          <img src="assets/img/game.jpg" alt="cult.fit" />
+          <p class="project-title">Gaming Website</p>
+          <p class="project-subtitle">
+            A Gaming web application.
+            <br />
+            <br />
+            It is Individual Project build by Me.
+            . <br />
+            <br />HTML | CSS | DOM
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/nishant12311/GamingWEB" target="_blank" class="small-btn button">
+
+              <i class="bx bxl-github"></i>
+            </a>
+          
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="assets/img/weather.jpg" alt="" />
+          <p class="project-title">Weather Web Application</p>
+          <p class="project-subtitle">
+            Weather forcast is just a weather forcasting web application but it is only the design implemented.
+            <br />
+           
+            <br />
+            HTML | CSS | JS |
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/nishant12311/Weather_Forecast" target="_blank"
+              class="small-btn button">
+              Code<i class="bx bxl-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="assets/img/insta.jpg" alt="" />
+          <p class="project-title">
+            INSTA Clone UI/UX
+          </p>
+          <p class="project-subtitle">
+            A Insta Clone Web Design Using Figma. (UI/UX)
+            
+            <br />
+            <br />
+            A project built by me, executed in 1 days.
+            <br />
+            <br />
+           FIGMA | UI | UX |
+          </p>
+          <div class="project-btns">
+            <a href="https://www.figma.com/proto/LruDde7XKkxPwzc9rOoxZQ/Untitled?node-id=0%3A1&fuid=1202229376249419697"
+              target="_blank" class="small-btn button">
+              Design<i class="bx bxl-figma"></i>
+            </a>
+            <a href="https://www.figma.com/proto/LruDde7XKkxPwzc9rOoxZQ/Untitled?node-id=0%3A1&fuid=1202229376249419697" target="_blank" class="small-btn button">
+              Live<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="assets/img/ebook.png" alt="shop app" />
+          <p class="project-title">
+EBook App Design          </p>
+          <p class="project-subtitle">
+            It's an complete E-Book app Design UI/UX using Figma.
+            
+            <br />
+            <br />
+            Its Individual project built by me.
+            <br />
+            <br />
+           Figma | UI | UX
+          </p>
+          <div class="project-btns">
+            <a href="https://www.figma.com/proto/sDpq0x6l4UNQh3HykYV6lH/E-book?node-id=2-2&scaling=scale-down&page-id=0%3A1"
+              target="_blank" class="small-btn button">
+              Design<i class="bx bxl-figma"></i>
+            </a>
+            <a href="https://www.figma.com/proto/sDpq0x6l4UNQh3HykYV6lH/E-book?node-id=2-2&scaling=scale-down&page-id=0%3A1" target="_blank" class="small-btn button">
+              Live<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--===== FOOTER + CONTACT=====-->
+  
+  <footer class="footer section" id="contact">
+    <h2 class="section-title">Get in Touch</h2>
+    <p class="footer-title">Nishant Chapagai</p>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/nishant-chapagai-1b8813269" target="_blank" class="footer-icon"><i
+          class="bx bxl-linkedin">
+          <br />
+          LinkedIn</i></a>
+      
+      <a href="mailto:nishantchapagai65@gmail.com" target="_blank" class="footer-icon"><i class="bx bx-mail-send">
+          <br />
+          E-mail</i></a>
+      <a href="tel:+977 9813047264" target="_blank" class="footer-icon"><i class="bx bx-phone">
+          <br />
+          Phone</i></a>
+      <a href="https://github.com/nishant12311" target="_blank" class="footer-icon"><i
+            class="bx bxl-github">
+          <br />
+          GitHub
+          </i></a>
+    </div>
+    <p>&#169; 2023 copyright all right reserved</p>
+  </footer>
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
